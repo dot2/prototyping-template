@@ -1,16 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project template, optimized for use with [Bun](https://bun.sh) and designed to accelerate your prototyping workflow.
 
 ## Getting Started
 
-First, run the development server:
+First, ensure you have [Bun installed](https://bun.sh/package-manager). Then, install the project dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+bun install
+```
+
+Next, run the development server:
+
+```bash
 bun dev
 ```
 

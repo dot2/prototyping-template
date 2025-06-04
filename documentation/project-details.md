@@ -4,6 +4,17 @@ This is your project details file. Here you can start by giving a brief overview
 
 This project is a Next.js-based template designed to accelerate the development of modern web applications. It incorporates best practices for frontend development, including a robust tech stack featuring Next.js, Tailwind CSS, Motion for animations, Supabase for backend services, and Zustand for state management.
 
+## Package Management and Build Process
+
+This project utilizes **Bun** as its primary package manager and JavaScript runtime. This choice is aimed at leveraging Bun's speed and efficiency for dependency management and build processes.
+
+- **Lockfile**: You will find a `bun.lockb` file in the root directory, which is Bun's binary lockfile.
+- **NPM/Yarn**: `package-lock.json` (for npm) or `yarn.lock` (for Yarn) are not used in this project to ensure consistency with Bun.
+- **Vercel Deployment**: The project is configured to use Bun for deployments on Vercel via the `vercel.json` file, which specifies `bun install` for installing dependencies and `bun run build` for the build command.
+- **Local Development**: It is recommended to use Bun commands for managing packages (e.g., `bun install`, `bun add <package>`, `bun remove <package>`) and running scripts (e.g., `bun run dev`, `bun run build`).
+
+This setup ensures a consistent and fast development and deployment experience.
+
 ## Folder Structure and Conventions
 
 Below is a high-level overview of the main project directories and their intended purpose:

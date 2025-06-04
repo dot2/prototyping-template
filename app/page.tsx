@@ -26,6 +26,17 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-3 text-foreground border-b pb-2">Key Features & Technologies</h2>
           <ul className="list-disc list-inside space-y-2 text-muted-foreground">
             <li><strong className="font-medium text-foreground">Next.js App Router:</strong> Optimized routing, layouts, and server components.</li>
+            <li>
+              <a 
+                href="https://bun.sh/package-manager"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-primary underline underline-offset-4 hover:text-primary/80"
+              >
+                <strong className="font-medium text-primary">Bun</strong>
+              </a>
+              : Fast JavaScript runtime, bundler, and package manager.
+            </li>
             <li><strong className="font-medium text-foreground">Tailwind CSS:</strong> Utility-first CSS for rapid UI development.</li>
             <li><strong className="font-medium text-foreground">Framer Motion:</strong> Fluid animations and interactions.</li>
             <li><strong className="font-medium text-foreground">Zustand:</strong> Lightweight global state management.</li>
@@ -50,6 +61,18 @@ export default function Home() {
                 TweakCN
               </a>
               . This tool allows you to quickly generate theme configurations for <code>components.json</code>, giving extra depth to your prototypes.
+            </li>
+            <li>
+              If you haven't already, you'll need to{" "}
+              <a 
+                href="https://bun.sh/package-manager"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-primary underline underline-offset-4 hover:text-primary/80"
+              >
+                install Bun
+              </a>
+              . Then, familiarize yourself with using Bun for package management (e.g., <code>bun add &lt;package&gt;</code>) and running scripts (e.g., <code>bun run dev</code>).
             </li>
             <li>
               Modify this page by editing{" "}
